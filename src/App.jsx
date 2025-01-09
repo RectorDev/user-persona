@@ -1,10 +1,12 @@
-import "./App.css";
+import Template from "./Template";
 
 function App() {
   return (
     <>
-      <main>
-        <section className="padding"></section>
+      <main className="bg-slate-800">
+        <section className="">
+          <Template />
+        </section>
       </main>
     </>
   );
