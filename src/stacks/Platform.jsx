@@ -6,7 +6,7 @@ import { LuAppWindowMac } from "react-icons/lu";
 
 const Platform = () => {
   return (
-    <div className={"text-primary bg-white rounded-md p-4"}>
+    <div className={"text-primary flex flex-1 flex-col bg-white rounded-md p-4"}>
       <h2 className={"fo nt-bold font-palanquin font-bold"}>Platform</h2>
       <ul className={"list-none mt-4 pl-4 flex flex-wrap gap-4 items-center "}>
         {platformDev.mobile && (

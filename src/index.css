@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary: #1D2254; /* Light mode background */
+    --secondry: #6A24FF; /* Light mode text */
+    --pale-blue: #f5f6ff; /* Light mode primary */
+    --slate-gray: #6D6D6D; /* Light mode secondary */
+    --purple-text: #3A3D5B;
+}
+
+.dark {
+    --primary: #f5f6ff; /* Dark mode background */
+    --pale-blue: #1D2254; /* Dark mode primary */
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +24,7 @@
 
 @layer components {
     .max-container {
+
         max-width: 1440px;
         margin: 0 auto;
     }

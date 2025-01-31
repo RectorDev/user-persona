@@ -7,13 +7,20 @@ export const details = [
   { tech_literate: "average" },
 ];
 
-export const bio =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque consequuntur inventore iure libero\n" +
-  "obcaecati pariatur suscipit. Consequuntur illum laudantium magnam minima nam nostrum placeat provident quibusdam\n" +
-  "repudiandae saepe! Ut?";
+export const quote = "lorem ipsum dolor sit amet";
+export const personality =
+  "lorem ipsum dolor sit amet loremon sectetur adipisicing";
+
+export const bio = [
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque consequuntur inventore iure libero\n",
+  "Lorem ipsum dolor sit amet, c elit. Tempore, ut.",
+  "Lorem ipsum dolor sit amet, c elit. Tempore, ut.",
+  "Lorem ipsum dolor sit amet, c elit. Tempore, ut.",
+  "Lorem ipsum dolor sit amet, c elit. Tempore, ut.",
+];
 
 export const coreNeeds = [
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ut.",
+  "Lorem ipsum dolor sit amet, c elit. Tempore, ut.",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ut.",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ut.",
 ];

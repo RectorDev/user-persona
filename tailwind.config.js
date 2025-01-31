@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
@@ -19,12 +20,12 @@ export default {
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
-        "secondary":"#6A24FF",
-        "primary": "#1D2254",
-        "purple-text": "#3A3D5B",
+        secondary: "var(--secondry)",
+        primary: "var(--primary)",
+        "purple-text": "var(--purple-text)",
         "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
+        "pale-blue": "var(--pale-blue)",
         "white-400": "rgba(255, 255, 255, 0.80)",
       },
       boxShadow: {
