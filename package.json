@@ -1,6 +1,6 @@
 {
   "name": "user-persona",
-  "homepage": "https://rectordev.github.io/user-persona/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "prettier": "^3.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
